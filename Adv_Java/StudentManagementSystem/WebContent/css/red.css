@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+
+nav a 
+{
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none; 
+  text-transform: uppercase; 
+  border: 2px solid black;
+}
+
+nav 
+{
+	padding: 30px;
+	background-color: #EEE;
+}
+
+
+table 
+{
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 550px;
+  margin-left: 80px;
+}
+
+th, td 
+{
+  border: 1px solid black;
+}
+
+.noBorder 
+{
+	border: 0px;
+	background-color: #FFF;
+}
+
+.button 
+{
+  background-color: blue;
+  color: white;
+  padding: .25em;
+  text-decoration: none; 
+  text-transform: uppercase; 
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
+th, td
+ {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+	background-color: red;
+}
+
+
+tr:nth-child(even) {
+	background-color: #d2d2d2;
+}
