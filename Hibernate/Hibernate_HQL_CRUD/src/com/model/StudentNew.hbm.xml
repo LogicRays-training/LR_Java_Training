@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 7, 2019, 9:37:02 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.bean.StudentNew" table="STUDENTNEW">
+        <id name="stuid" type="int">
+            <column name="STUID" />
+            <generator class="increment" />
+        </id>
+        <property name="stuname" type="java.lang.String">
+            <column name="STUNAME" />
+        </property>
+        <property name="sturoll" type="java.lang.String">
+            <column name="STUROLL" />
+        </property>
+        <property name="stuage" type="java.lang.String">
+            <column name="STUAGE" />
+        </property>
+        <property name="stuschool" type="java.lang.String">
+            <column name="STUSCHOOL" />
+        </property>
+    </class>
+</hibernate-mapping>
