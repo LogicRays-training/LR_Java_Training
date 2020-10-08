@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<bean class="com.bean.Person" id="person">
+<constructor-arg value="11" name="pid"/>
+<constructor-arg value="Nivedita" name="name"/>
+<constructor-arg value="122222221" name="mobno"/>
+</bean>
+
+</beans>
